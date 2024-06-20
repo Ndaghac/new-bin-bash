@@ -9,7 +9,7 @@ sudo yum install -y httpd
 sudo service httpd start
 
 sudo service httpd start
-sudo chkconfig http on start
+sudo chkconfig http on
 
 # create the web page
 echo "Welcome to page1" sudo tee /var/www/html/index.html
