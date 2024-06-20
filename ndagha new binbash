@@ -15,4 +15,4 @@ sudo chkconfig httpd on
 echo "Welcome to page1" | sudo tee /var/www/html/index.html
 
 Restart Apache to ensure all changes are applied
-Sudo service httpd Restart
+sudo service httpd Restart
