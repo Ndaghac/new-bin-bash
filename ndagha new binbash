@@ -12,7 +12,7 @@ sudo service httpd start
 sudo chkconfig http on
 
 # create the web page
-echo "Welcome to page1" sudo tee /var/www/html/index.html
+echo "Welcome to page1" |sudo tee /var/www/html/index.html
 
 Restart Apache to ensure all changes are applied
 Sudo service httpd Restart
